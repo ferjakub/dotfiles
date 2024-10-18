@@ -2,13 +2,12 @@
 
 Clone into a subdirectory of `$HOME` (e.g. `~/dotfiles`). Then:
 
-```console
-~$ cd ~/dotfiles
-~/dotfiles$ stow vim
-~/dotfiles$ stow kitty
+```bash
+cd ~/dotfiles
+stow vim
+stow kitty
+# etc.
 ```
-
-etc.
 
 # Currently versioned configs
 
