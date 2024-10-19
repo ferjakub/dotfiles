@@ -91,6 +91,7 @@ set tabpagemax=20
 
 " colorscheme zenburn
 
+
 " Mark tabs and spaces
 set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
 
@@ -148,3 +149,22 @@ augroup END
 
 set number
 set autochdir
+
+call plug#begin()
+
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'ghifarit53/tokyonight-vim'
+
+call plug#end()
+
+set termguicolors
+
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+
+colorscheme tokyonight
+
+map <F2> :LspRename<CR>
