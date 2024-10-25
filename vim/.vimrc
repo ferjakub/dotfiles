@@ -168,3 +168,7 @@ let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
 
 map <F2> :LspRename<CR>
+
+set tabstop=4
+set shiftwidth=4
+
