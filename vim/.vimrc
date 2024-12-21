@@ -11,7 +11,7 @@ imap jj <Esc>
 " Per-filetype settings
 autocmd FileType java		setlocal tw=78 cin foldmethod=marker
 autocmd FileType c,cpp		setlocal tw=72 cindent noexpandtab
-autocmd FileType python		setlocal autoindent expandtab sts=4 sw=4 tw=78
+autocmd FileType python		setlocal autoindent expandtab sts=4 sw=4
 autocmd FileType haskell	setlocal tw=72 sw=2 sts=2 et
 autocmd FileType tex		setlocal tw=72 sw=2 sts=2 ai et
 autocmd FileType tex		so ~/.vim/latex-abbrevs.vim
@@ -157,6 +157,8 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'psf/black', { 'branch': 'stable' }
+Plug 'rhysd/vim-clang-format'
 
 call plug#end()
 
@@ -171,4 +173,3 @@ map <F2> :LspRename<CR>
 
 set tabstop=4
 set shiftwidth=4
-
