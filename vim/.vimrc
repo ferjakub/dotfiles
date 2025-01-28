@@ -5,8 +5,6 @@ set modeline
 
 filetype plugin on
 
-" Mapping from usenet.
-imap jj <Esc>
 
 " Per-filetype settings
 autocmd FileType java		setlocal tw=78 cin foldmethod=marker
@@ -159,6 +157,7 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'psf/black', { 'branch': 'stable' }
 Plug 'rhysd/vim-clang-format'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
