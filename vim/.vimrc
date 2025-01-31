@@ -172,3 +172,6 @@ map <F2> :LspRename<CR>
 
 set tabstop=4
 set shiftwidth=4
+
+" shared clipboard between vim instances
+set clipboard=unnamedplus
