@@ -12,5 +12,6 @@ stow kitty
 # Currently versioned configs
 
 - vim
+- nvim
 - kitty
 
