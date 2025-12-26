@@ -158,6 +158,7 @@ Plug 'ghifarit53/tokyonight-vim'
 Plug 'psf/black', { 'branch': 'stable' }
 Plug 'rhysd/vim-clang-format'
 Plug 'tpope/vim-commentary'
+Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
 
